@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IF=edge">
+    <title>My Portfolio | Coder Joy</title>
+    
+    <!----------font family link------------>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    
+    <!-------link css another page----------->
+    <link rel="stylesheet" href="style.css">
+    <!-------link activity page cdn----------->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@mariohamann/activity-graph/dist/activity-graph.min.js"></script>
+  </head>
+  <body class="">
+    <!---------Navbar starts hare---------->
+     <div class="container">
+       <nav class="navbar">
+          <div class="box theme">
+             <div class="item" onclick="theme()">
+               <ion-icon id="lightBtn" name="sunny-outline"></ion-icon>
+               <ion-icon id="darkBtn" name="moon-outline" style="display:none;"></ion-icon>
+             </div>
+          </div>
+          <div class="box nav">
+            <div class="item active"><a href="#about">
+              <ion-icon name="person-circle-outline"></ion-icon>
+              <p>About</p>
+            </a>
+            <div class="divider rtl"></div>
+            </div>
+            
+            <div class="item"><a href="#resume">
+              <ion-icon name="folder-outline"></ion-icon>
+              <p>Resume</p>
+            </a>
+            <div class="divider rtl"></div>
+            </div>
+            
+            <div class="item"><a href="#projects">
+              <ion-icon name="layers-outline"></ion-icon>
+              <p>Projects</p>
+            </a>
+            <div class="divider rtl"></div>
+            </div>
+            
+            <div class="item"><a href="#blogs">
+              <ion-icon name="reader-outline"></ion-icon>
+              <p>Blogs</p>
+            </a>
+            <div class="divider rtl"></div>
+            </div>
+            
+            <div class="item"><a href="#contact">
+              <ion-icon name="paper-plane-outline"></ion-icon>
+              <p>Contact</p>
+            </a>
+            <div class="divider rtl"></div>
+            </div>
+            
+          </div>
+       </nav>
+  
+  <!--------profile starts hare-------------->
+       <div class="box profile">
+            <img class="header" src="person-playing-3d-video-games-device (1).jpg" alt="profile-picture">
+            <div class="img-box">
+              <img class="img" src="1000004142-removebg-preview.png" alt="my-picture">
+            </div>
+            <h2>Joy Ghorami</h2>
+            <p class="colored">I am a <span id="element"></span></p>
+            <ul>
+              <li class="list-item">
+                <a href="#">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                  <span class="tooltip">Facebook</span>
+                </a>
+              </li>
+              <li class="list-item">
+               <a href="#">
+                <ion-icon name="logo-google"></ion-icon>
+                <span class="tooltip">Google</span>
+               </a>
+              </li>
+              <li class="list-item">
+                <a href="#">
+                  <ion-icon name="logo-github"></ion-icon>
+                  <span class="tooltip">Github</span>
+                </a>
+              </li>
+              <li class="list-item">
+                <a href="#">
+                   <ion-icon name="logo-twitter"></ion-icon>
+                   <span class="tooltip">Twitter</span>
+                </a>
+              </li>
+            </ul>
+            <div class="footer">
+              <div class="divider rtl"></div>
+              <table>
+                <tr>
+                  <td><a href="#">My Resume <ion-icon name="file-tray-full-outline"></ion-icon></a></td>
+                  <td><a href="#">Contact Me <ion-icon name="call-outline"></ion-icon></a></td>
+                </tr>
+              </table>
+            </div>
+        </div>
+   <!--------profile ends hare-------------->
+   
+   <!--------content starts hare-------------->
+      <div class="box content">
+        <div class="wrapper">
+          <h2 id="about">Hey <span class="colored">There!</span></h2>
+          <div class="divider ltr"></div>
+          <p>I am a passionate developer focused<span class="colored"> on mobile-first web design and cybersecurity.</span> I love creating clean, professional, and responsive user interfaces using modern technologies.</p>
+     <!-----achivements section starts hare------>
+    <section class="achivements">
+         <div>
+           <h3><ion-icon name="layers-outline"></ion-icon>2k+</h3>
+            <p>Website Designed</p>
+         </div>
+         <div>
+           <h3><ion-icon name="reader-outline"></ion-icon>4y+</h3>
+            <p>Years of Experience</p>
+         </div>
+         <div>
+           <h3><ion-icon name="paper-plane-outline"></ion-icon>5k+</h3>
+            <p>Completed Projects</p>
+         </div>
+     </section>
+    <!-----achivements section ends hare------>
+    
+    <!-----skills section starts hare------>
+       <h2>My <span class="colored">Skills</span></h2>
+       <div class="divider ltr"></div>
+       
+    <section class="skills">
+        <div><ion-icon name="logo-html5"></ion-icon><p>HTML5</p></div>
+         <div><ion-icon name="logo-css3"></ion-icon><p>CSS</p></div>
+         <div><ion-icon name="logo-javascript"></ion-icon><p>JavaScript</p></div>
+         <div><ion-icon name="logo-react"></ion-icon><p>React.js</p></div>
+         <div><ion-icon name="logo-python"></ion-icon><p>Python</p></div>
+         
+        <div>
+         <div class="circle" style="--percent:65;">
+          <h4>65<small>%</small></h4>
+         </div>
+         <p>MySQL C<small>++</small></p>
+        </div>
+        <div>
+          <div class="circle" style="--percent:80;">
+          <h4>80<small>%</small></h4>
+          </div>
+          <p>MySQL</p>
+       </div>
+       
+       <div>
+         <div class="progress-bar">
+          <p>Node.js <span>90%</span></p>
+          <progress max="100" min="0" value="90"></progress>
+         </div>
+        <div class="progress-bar">
+          <p>PostgreSQL <span>75%</span></p>
+          <progress max="100" min="0" value="75"></progress>
+        </div>
+       </div>
+      </section>
+    <!-----skills section ends hare------>
+    
+   <!------experience section starts hare----->
+    <h2 id="resume">My <span class="colored">Experience</span></h2>
+       <div class="divider ltr"></div>
+     <section class="experience">
+       <div class="experiences">
+         <h2>Senior Python Developer</h2>
+         <h4>Google Inc. <span class="date">Oct 2018</span> &#x26AC; <span class="date">Dec 2020</span></h4>
+         <p>I love creating clean, professional, and responsive user interfaces using modern technologies.</p>
+       </div>
+       
+       <div class="experiences">
+         <h2>Full-Stack Developer</h2>
+         <h4>Integrity Software, Inc. <span class="date">Nov 2021</span> &#x26AC; <span class="date">Sep 2023</span></h4>
+         <p>Senior Full-stack Developer, professional, and responsive user interfaces using modern technologies.</p>
+       </div>
+       
+       <div class="experiences">
+         <h2>Junior Forented Developer</h2>
+         <h4>Fresh-work Inc. <span class="date">Aug 2016</span> &#x26AC; <span class="date">Dec 2018</span></h4>
+         <p>Junior Froented Developer, professional, and responsive user interfaces using modern technologies.</p>
+       </div>
+     </section>
+   <!-----experience section ends hare----->
+   
+   <!----Contribution section starts hare----->
+      <h1>My <span class="colored">Contribution</span></h1>
+       <div class="divider ltr"></div>
+      <section class="contribution">
+        <div class="wrapper">
+              <activity-graph
+                 range-start="2021-01-01" 
+                 range-end="2021-12-31"
+                 activity-levels="0,1,2,3,6"
+                 activity-data="
+                  2021-01-01,2021-01-01,2021-01-01,2021-01-02,2021-01-02,2021-01-03,2021-01-03,2021-01-03,2021-01-05,2021-01-05,2021-01-05,2021-01-05,2021-01-06,2021-01-06,2021-01-08,2021-01-08,2021-01-08,2021-01-09,2021-01-09,2021-01-11,2021-01-11,2021-01-11,2021-01-14,2021-01-14,2021-01-16,2021-01-16,2021-01-16,2021-01-16,2021-01-19,2021-01-19,2021-01-21,2021-01-21,2021-01-23,2021-01-23,2021-01-23,2021-01-24,2021-01-24,2021-01-27,2021-01-27,2021-01-28,2021-01-29,2021-01-29,2021-01-29,2021-01-30,2021-01-31,2021-02-01,2021-02-01,2021-02-02,2021-02-02,2021-02-02,2021-02-03,2021-02-03,2021-02-05,2021-02-05,2021-02-10,2021-02-11,2021-02-12,2021-02-12,2021-02-12,2021-02-12,2021-02-14,2021-02-14,2021-02-17,2021-02-17,2021-02-17,2021-02-19,2021-02-19,2021-02-20,2021-02-23,2021-02-23,2021-02-24,2021-02-24,2021-02-25,2021-02-26,2021-02-26,2021-02-26,2021-02-26,2021-02-27,2021-02-27,2021-02-28,2021-03-01,2021-03-01,2021-03-05,2021-03-08,2021-03-08,2021-03-10,2021-03-12,2021-03-15,2021-03-15,2021-03-15,2021-03-15,2021-03-15,2021-03-15,2021-03-18,2021-03-20,2021-03-22,2021-03-22,2021-03-25,2021-03-28,2021-03-30,2021-04-01,2021-04-01,2021-04-02,2021-04-02,2021-04-02,2021-04-02,2021-04-02,2021-04-02,2021-04-05,2021-04-08,2021-04-10,2021-04-12,2021-04-12,2021-04-15,2021-04-18,2021-04-20,2021-04-20,2021-04-22,2021-04-25,2021-04-25,2021-04-28,2021-05-01,2021-05-01,2021-05-03,2021-05-05,2021-05-08,2021-05-10,2021-05-12,2021-05-15,2021-05-15,2021-05-15,2021-05-15,2021-05-15,2021-05-15,2021-05-18,2021-05-20,2021-05-22,2021-05-25,2021-05-28,2021-05-30,2021-06-01,2021-06-05,2021-06-05,2021-06-05,2021-06-08,2021-06-10,2021-06-12,2021-06-15,2021-06-15,2021-06-15,2021-06-18,2021-06-20,2021-06-22,2021-06-25,2021-06-28,2021-06-30,2021-06-30,2021-06-30,2021-06-30,2021-06-30,2021-06-30
+                 "
+             ></activity-graph>
+            </div>
+      </section>
+   <!----Contribution section ends hare----->
+   
+   <!-----project section starts hare------>
+     <h1 id="projects">My <span class="colored">Projects</span></h1>
+       <div class="divider ltr"></div>
+     <section class="projects">
+       <div class="project-1">
+         <img src="images (10) (1).jpeg" alt="picture-1">
+         <h3>Project <span class="colored">Title-1</span></h3>
+       </div>
+       
+       <div class="project-2">
+         <img src="ai-assists-organizing-visualizing-digital-ecosystem-business-icons-to-represent-key-services-like-finance-analytics-418572840 (1).jpg" alt="picture-2">
+         <h3>Project <span class="colored">Title-2</span></h3>
+       </div>
+       
+       <div class="project-3">
+         <img src="ai-global-project-management-strategy-execution-motif-ai-global-project-management-solutions-services-ai-424244936 (1).jpg" alt="picture-3">
+         <h3>Project <span class="colored">Title-3</span></h3>
+       </div>
+       
+       <div class="project-4">
+         <img src="human-and-ai-hand-touching-digital-interface-cybersecurity-concept-with-futuristic-elements-password-protection-photo (1).jpeg" alt="picture-4">
+         <h3>Project <span class="colored">Title-4</span></h3>
+       </div>
+       
+       <div class="project-5">
+         <img src="images (9) (1).jpeg" alt="picture-5">
+         <h3>Project <span class="colored">Title-5</span></h3>
+       </div>
+       
+       <div class="project-6">
+         <img src="images (7) (1) (1).jpeg" alt="picture-6">
+         <h3>Project <span class="colored">Title-6</span></h3>
+       </div>
+       
+       <div class="project-7">
+         <img src="human-and-robot-hands-interacting-with-ai-globe-future-technology-automation-and-digitalization-concept-photo (1).jpeg" alt="picture-7">
+         <h3>Project <span class="colored">Title-7</span></h3>
+       </div>
+     </section>
+   <!------project section ends hare------>
+   
+   <!------blogs section starts hare-------->
+     <h1 id="blogs">My <span class="colored">Blogs</span></h1>
+       <div class="divider ltr"></div>
+    <section class="blogs">
+      <div class="blog-box">
+        <img src="images (14).jpeg" alt="blog picture1">
+        <div>
+          <h3>Web Design Tools</h3>
+          <p>I love creating clean, professional, and responsive user interfaces using modern technologies.</p>
+          <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+        </div>
+      </div>
+      
+      <div class="blog-box">
+         <img src="images (6) (1).jpeg" alt="blog picture2">
+        <div>
+           <h3>How To Develop Wordpress Plugin</h3>
+           <p>I am a passionate developer focused on mobile-first web design and cybersecurity.</p>
+           <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+        </div>
+      </div>
+      
+      <div class="blog-box">
+         <img src="images (12).jpeg" alt="blog picture3">
+        <div>
+          <h3>What Is Bootstrap</h3>
+          <p>I am a passionate developer focused on mobile-first web design and cybersecurity.</p>
+          <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+        </div>
+      </div>
+      
+      <div class="blog-box">
+         <img src="HD-wallpaper-fullstack-development-nodejs-programmer-technology-thumbnail (1).jpg" alt="blog picture4">
+        <div>
+          <h3>What Is Laravel</h3>
+          <p>I love creating clean, professional, and responsive user interfaces using modern technologies.</p>
+          <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+        </div>
+      </div>
+    </section>
+   <!------blogs section ends hare-------->
+   
+  <!-----TestImonials section starts hare----->
+        <h1>My <span class="colored">Testimonials</span></h1>
+       <div class="divider ltr"></div>
+    <section class="Testimonials">
+      <div class="Testimonial-box">
+        <h1>My <sapn class="colored">Clients Say About Me</sapn></h1>
+      </div>
+      <div class="Testimonial-box">
+        <img src="person-playing-3d-video-games-device (1).jpg" alt="picture-1">
+          <span>
+            <ion-icon name="star-outline"></ion-icon>
+           <ion-icon name="star-outline"></ion-icon>
+           <ion-icon name="star-outline"></ion-icon>
+           <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+          </span>
+          <h3>Dan Gromes</h3>
+          <i>Manager at Google Inc.</i>
+          <p>I love creating clean, responsive user interfaces using modern technologies.</p>
+       </div>
+       
+       <div class="Testimonial-box">
+         <img src="images (14).jpeg" alt="picture-2">
+          <span>
+            <ion-icon name="star-outline"></ion-icon>
+           <ion-icon name="star-outline"></ion-icon>
+           <ion-icon name="star-outline"></ion-icon>
+           <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+          </span>
+          <h3>3Hon Doe</h3>
+          <i>CEO Bank of Amarican</i>
+          <p>I love creating clean, responsive user interfaces using modern technologies.</p>
+       </div>
+       
+       <div class="Testimonial-box">
+         <img src="images (6) (1).jpeg" alt="picture-3">
+          <span>
+            <ion-icon name="star-outline"></ion-icon>
+           <ion-icon name="star-outline"></ion-icon>
+           <ion-icon name="star-outline"></ion-icon>
+           <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+          </span>
+          <h3>Estefana Reifert</h3>
+          <i>CEO at Google Inc.</i>
+          <p>I love creating clean, responsive user interfaces using modern technologies.</p>
+       </div>
+    </section>
+  <!-----TestImonials section ends hare----->
+  
+  <!-----Contact section starts hare----->
+        <h1 id="contact">My <span class="colored">Contact</span></h1>
+       <div class="divider ltr"></div>
+    <section>
+       <iframe class="map" width="100%" height="300px" frameborder="0" src="https://maps.google.com/maps?q=Mollahat,Bagerhat,Bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+       
+       <form action="#" method="post" class="contact">
+         <div>
+           <input class="input" type="text" name="first-name" id="" placeholder="Your Name...">
+         </div>
+         <div>
+           <input class="input" type="text" name="your-last-name" id="" placeholder="Your Last Name...">
+         </div>
+         <div>
+           <input class="input" type="email" name="email" id="" placeholder="Your Email Address...">
+         </div>
+         <div>
+           <textarea rows="4" name="subject" class="input" placeholder="Write Something..."></textarea>
+         </div>
+         <div>
+           <button type="submit" class="submit">Send Meassage</button>
+         </div>
+       </form>
+    </section>
+  <!--------Contact section ends hare-------->
+       </div>
+    </div>
+   <!--------content ends hare-------------->
+ </div>
+
+    <!---------Navbar ends hare---------->
+    <!----------icon menu cdn-------->
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+     <!----JavaScript------>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script src="script.js"></script>
+  </body>
+</html>
